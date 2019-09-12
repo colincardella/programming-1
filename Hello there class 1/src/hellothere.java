@@ -1,4 +1,5 @@
-
+// Project: Project 1
+//Author: Colin
 public class hellothere {
 
 	public static void main(String[] args) {
@@ -19,9 +20,28 @@ public class hellothere {
 		System.out.println("Finale to #10 which is fish");
 		
 		
+		// Output my age middle initial and my name
+		int age;
+		double myNumber = 4.577;
+		char middleInitial = 'A';
+		String myName = "Colin";
+		System.out.print("Hello, " + myName + "!\nYour favorite number is " + myNumber + ".");
 		
-		
+		if (age < 21)
+		{
+			System.out.println("How about a nice glass of water");
+		}
+		else
+		{
+			System.out.println("you can drink whatever you like");
+		}
+		}
 	
+		
+		
+		
+		
+		
 	} 
 		
 }
