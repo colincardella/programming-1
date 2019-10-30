@@ -6,6 +6,7 @@
 // Version:	1.0
 
 //importing the scanner
+
 import java.util.Scanner;
 public class Methods {
 public static void main(String[] args) {
