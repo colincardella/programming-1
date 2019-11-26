@@ -33,6 +33,7 @@ public class Banking {
 	public void displayBalance()
 	{
 	System.out.println("Your balance is: $" + this.balance);
+	
 	if (this.balance <0)
 		System.out.println("You are at a negative balance.");
 	}
