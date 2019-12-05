@@ -34,9 +34,7 @@ public class Inputoutput {
 		//loop throught input file
 		while(inputFile1.hasNext())
 		{
-			char category = inputFile1.next().charAt(0);
-			double categoryAmount = inputFile1.nextDouble();
-			switch(category)
+			
 			{
 			case 'A':
 				total+=categoryAmount;
